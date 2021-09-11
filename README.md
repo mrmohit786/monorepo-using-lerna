@@ -1,4 +1,4 @@
-## Monorepo architecture build using lerna
+## Monorepo architecture build using lerna and yarn workspace
 
 ### Some useful commands for lerna
 
@@ -16,8 +16,10 @@ npx lerna clean -y
 ````
 > Install packages in a single node modules dir
 ````
-npm lerna bootstrap --hoist
-```` 
+npx lerna bootstrap --hoist
+````
+
+### Work with yarn
 
 ### For more information visit lerna official website
 > https://lerna.js.org/
